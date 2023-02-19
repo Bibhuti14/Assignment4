@@ -1,0 +1,182 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: #111827;
+ color: white;
+}
+header nav {
+ display: flex;
+ justify-content: end;
+ align-items: center;
+}
+nav {
+ height: 45px;
+ width: 100%;
+}
+nav ul {
+ display: flex;
+ justify-content: end;
+ gap: 131px;
+ list-style: none;
+}
+nav ul li {
+ cursor: pointer;
+}
+.img1 img {
+ height: 25px;
+ cursor: pointer;
+ display: none;
+}
+section div img {
+ height: 40px;
+}
+.left-cont {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ width: 18em;
+ height: 16em;
+}
+.right img {
+ height: 16em;
+}
+.main-sub {
+ display: flex;
+ justify-content: center;
+ width: 93em;
+}
+h1 {
+ font-size: 2em;
+ margin: 8px;
+}
+h2 {
+ color: #c2c221;
+ text-align: left;
+}
+.waving {
+ align-items: center;
+ justify-content: flex-start;
+ display: flex;
+ width: 15em;
+}
+.project {
+ font-size: 18px;
+ text-align: center;
+}
+.hr {
+ height: 4px;
+ width: 114px;
+ background-color: blue;
+ border-radius: 16px;
+ margin-bottom: 9px;
+}
+.p-box {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.container {
+ display: grid;
+ grid-template-columns: 78px 103px;
+ align-items: center;
+ justify-content: center;
+ row-gap: 0px;
+ text-align: end;
+ column-gap: 94px;
+}
+.boxs img {
+ height: 130px;
+}
+.footer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 95em;
+ gap: 5px;
+}
+.hr-last {
+ height: 4px;
+ width: 97px;
+ background-color: blue;
+ border-radius: 14px;
+ margin-bottom: -3px;
+}
+.logos img {
+ height: 20px;
+}
+@media (max-width: 576px) {
+ nav ul {
+  display: none;
+ }
+ img[alt="img0"] {
+  height: 2em;
+  width: 2em;
+  display: block;
+ }
+ .main {
+  display: flex;
+  flex-direction: column;
+ }
+ img[alt="img11"] {
+  width: 60vw;
+ }
+ .main-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 26em;
+  font-size: 20px;
+ }
+ .name h1 {
+  font-size: 40px;
+ }
+ .name h2 {
+  font-size: 31px;
+  text-align: center;
+ }
+ .waving {
+  text-align: center;
+  width: 192px;
+ }
+ .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
+ }
+ img[alt="project-image"] {
+  width: 24vw;
+ }
+ .sec2 div h1 {
+  font-size: 35px;
+ }
+ .footer div h3 {
+  font-size: 35px;
+ }
+ .hr-last {
+  height: 10px;
+  width: 180px;
+  background-color: blue;
+  border-radius: 20px;
+  margin-bottom: 20px;
+ }
+ .sec2 {
+  width: 20em;
+ }
+ .p-box {
+  width: 32em;
+  width: -3em;
+ }
+ .footer {
+  width: 29em;
+  margin: 23px;
+ }
+}
